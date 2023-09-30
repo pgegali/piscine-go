@@ -1,0 +1,4 @@
+#!/bin/bash
+
+# Search for files and display them based on the criteria
+find . \( -name "a*" -o -name "*z" -o -name "z*a!" \) -exec echo {} \;
